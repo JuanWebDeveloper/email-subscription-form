@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form {
+    width: 600px;
+    padding: 50px 20px;
+    background: #e9e9e9;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-top: 28px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 35px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 12px;
+    color: #00208a;
+}
+
+p {
+    font-size: 17px;
+    text-align: center;
+    color: #444;
+    padding-bottom: 20px;
+}
+
+input {
+    width: calc(100% - 20px);
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 9px;
+    margin: auto;
+    margin-top: 12px;
+    color: #444;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 15px;
+    background: #00208a;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background: #0039f3;
+}
+
+.ok, .bad {
+    position: relative;
+    width: 90%;
+    padding: 12px;
+    text-align: center;
+    border-radius: 15px;
+    left: 5%;
+    color: #fff;
+}
+
+.ok {
+    background: #4e9;
+}
+
+.bad {
+    background: #a22;
+}
+
+.message {
+    font-size: 20px;
+    color: #fff;
+}
