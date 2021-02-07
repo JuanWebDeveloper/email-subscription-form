@@ -3,7 +3,7 @@
 /*===============
 <|-Connection -|>
 ===============*/
-$connect = new PDO('mysql:host=localhost;dbname=practices', 'root', '');
+$connect = new PDO('mysql:host=localhost;dbname=subscriptionform', 'root', '');
 
 /*=====================================================
 <|-Validate that the fields are not empty           -|>
